@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE = 'http://localhost:5000/api/chat';
+const API_BASE = 'https://ai-education-agent.onrender.com/api/chat';
 
 // Get all personas
 export const getPersonas = () => {
