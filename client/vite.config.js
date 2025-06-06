@@ -5,10 +5,11 @@ export default defineConfig({
   plugins: [react()],
   server: {
     port: process.env.PORT || 5173,
-    host: true
+    host: true,
   },
   preview: {
     port: process.env.PORT || 4173,
-    host: true
+    host: true,
+    allowedHosts: ['ai-education-agent-1.onrender.com'],
   }
 })
